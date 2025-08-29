@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: #735945;
     font-family: Bai Jamjuree;
 }
 
@@ -17,8 +17,12 @@ body {
 
 .cartao__conteudo {
     text-align: center;
-    background-color: cyan;
+    background-color: #5f4633;
     height: 100%;
+}
+
+.cartao__conteudo h3 {
+    
 }
 
 footer {
