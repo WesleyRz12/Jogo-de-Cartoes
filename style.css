@@ -1,11 +1,11 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-front-color: #003065;
+    --card-back-color: #141439;
 }
 
 body {
-    background: url('img/fundo-Photoroom.png');
+    background: url("img/fundo.jpeg");
     font-family: Bai Jamjuree;
 }
 
@@ -25,12 +25,14 @@ body {
 }
 
 .cartao__conteudo {
+    border: 3px solid var(--text-color);
+    border-radius: 5px;
     background-color: var(--card-front-color);
     text-align: center;
     /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
-    transition: transform 300ms ease-in-out;
+    transition: transform 600ms ease-in-out;
 }
 
 .cartao__conteudo h3 {
@@ -40,7 +42,7 @@ body {
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
-    border-radius: 0.6rem;
+    border-radius: 0.2rem;
     font-size: 1vw;
     backface-visibility: hidden;
 }
@@ -92,14 +94,14 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
 }
 
 @media (max-width: 560px) {
     
     body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
+        background: url('img/images.jpeg'), no-repeat cover;
     }
 
     .cartao {
